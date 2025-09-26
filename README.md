@@ -21,6 +21,24 @@ Proyecto realizado exclusivamente en **Excel** para simular la gestión de una t
 - **Top productos / clientes** por ventas.
 - **Márgenes** (si aplica) y **rotación**.
 - Tendencias por **mes** y **categoría**.
+## KPIs (resumen)
+- Ventas totales: _
+- Ticket promedio: _
+- Top 3 productos: _
+- Clientes activos: _
+- Margen (si aplica): _
+
+## Diccionario de datos (plantilla)
+| Campo        | Tipo   | Ejemplo        | Descripción                          |
+|--------------|--------|----------------|--------------------------------------|
+| fecha        | date   | 2025-06-01     | Fecha de la venta                    |
+| producto     | text   | A001-Taza      | Código / nombre del producto         |
+| categoria    | text   | Hogar          | Categoría del producto               |
+| cliente      | text   | C123           | Identificador del cliente            |
+| cantidad     | int    | 2              | Unidades vendidas                    |
+| precio_unit  | number | 120.00         | Precio unitario                      |
+| descuento    | number | 0.10           | Descuento aplicado (0–1)             |
+| importe      | number | 216.00         | cantidad * precio_unit * (1-desc.)   |
 
 ## Notas
 - El repositorio ignora temporales de Office (`~$*`) y archivos de sistema.
