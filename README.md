@@ -24,4 +24,10 @@ Proyecto realizado exclusivamente en **Excel** para simular la gestión de una t
 
 ## Notas
 - El repositorio ignora temporales de Office (`~$*`) y archivos de sistema.
-- Si prefieres, el archivo puede renombrarse a `.xlsx` (no hay macros).
+## Vistas
+![Dashboard](docs/Dashboard%20supertienda.jpg)
+
+📂 Descarga el archivo principal: [PT1 Supertienda.xlsm](./PT1%20Supertienda.xlsm)
+
+- Si pre
+fieres, el archivo puede renombrarse a `.xlsx` (no hay macros).
