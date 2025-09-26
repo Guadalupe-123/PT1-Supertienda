@@ -1,5 +1,5 @@
-~.docx
-~.xlsx
-~.xlsm
+~$*.docx
+~$*.xlsx
+~$*.xlsm
 .DS_Store
 Thumbs.db
